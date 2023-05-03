@@ -11,6 +11,8 @@
 #turno{
     font-family:'Courier New', Courier, monospace;
     font-size: 3vw;
+    position: absolute;
+    top: 80vh;
 }
 body {
     display: flex;
