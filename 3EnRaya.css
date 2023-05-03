@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    animation: color-change 5s infinite;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5vw;
+}
+#turno{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+table {
+    border-style: solid;
+    border-color: violet;
+    width: 300px; 
+     height: 300px;
+}
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: yellow;
+    }
+    100% {
+        color: purple;
+    }
+}
+td {
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+}

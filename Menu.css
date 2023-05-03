@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body  {
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
