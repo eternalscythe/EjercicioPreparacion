@@ -7,11 +7,15 @@
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="./Menu.css">
 </head>
-<body>
-    <nav class="menu">
+<body id ="todo">
+  <div id="zonaModo">
+    <img id="dia" src="./dia.png" onclick="ponerModoDia()">
+    <img id="noche" src="./noche.png" onclick="ponerModoNoche()">
+    </div>
+    <nav id="menu">
         <ul>
           <li><a href="./3EnRaya.html" class="button">3 en raya</a></li>
-          <li><a onclick="alert('Miguel Ángel Berlanga Gámez, 1ºDAM, El tema será una pagina web sobre Dragon Ball Z.')" class="button">Mas información</a></li>
+          <li><a onclick="alert('Miguel Ángel Berlanga Gámez, 1ºDAM, El tema será una pagina web sobre Dragon Ball Z. He puesto letras en 3D y el cursor cuando pasas por el botón.')" class="button">Mas información</a></li>
           <li><a href="./CuadradosColores.html" class="button">Colores</a></li>
         </ul>
       </nav>
